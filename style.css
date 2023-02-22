@@ -38,7 +38,7 @@ header{
 }
 
 .logo, user-account{
-    margin: 0 3em 0 0;
+    padding: 0 3em 0 0;
 }
 
 .search input[type="text"]{
@@ -48,4 +48,78 @@ header{
     padding: 0.5em;
     font-size: 1em;
 }
+
+.notice{
+    width: 70vw;
+}
+
+.main{
+    max-width: 100%;
+}
+
+.notice-container{
+    width: 100vw;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+}
+
+.arrow-notice{
+    width: 64px;
+    padding: 0.5em;
+    background-color: rgb(233, 238, 238);
+    border-radius: 10px;
+}
+
+.info-content , .categories-content{
+    display: flex;
+    justify-content: center;
+}
+
+
+.info-container{
+    background-color: rgb(70, 72, 198);
+    width: 80vw;
+    height: 6em;
+    display: flex;
+    align-items: center;
+}
+
+.info-container div{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.categories-content{
+    
+}
+
+.category {
+    background-color: rgb(196, 225, 225);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 80vw;
+    height: 6em;
+    margin: 1em 0;
+    border-radius: 12px;
+    padding: 0 1em;;
+}
+
+.category img{
+    width: 100px;
+    height: 100px;
+}
+
+.category:hover{
+    box-shadow: 2px 2px 2px 2px rgb(186, 186, 182);
+}
+
 
